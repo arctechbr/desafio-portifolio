@@ -23,13 +23,12 @@
   width: 1040px;
   display: grid;
   grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(2, 280px);
   gap: 24px;
   margin: 0 auto;
 }
 
 .project-card {
-  width: 330px;
-  height: 280px;
   background-color: var(--gray-400);
   border-radius: 12px;
   box-sizing: border-box;
