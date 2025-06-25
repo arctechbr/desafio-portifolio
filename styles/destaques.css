@@ -1,5 +1,5 @@
 .destaques {
-  height: 917px;
+  min-height: 917px;
 }
 
 .secondtittle {
@@ -21,21 +21,29 @@
 
 .projects-grid {
   width: 1040px;
-  height: 584px;
   display: grid;
   grid-template-columns: repeat(3, 330px);
-  grid-template-rows: repeat(2, 280px);
   gap: 24px;
   margin: 0 auto;
 }
 
 .project-card {
+  width: 330px;
+  height: 280px;
   background-color: var(--gray-400);
   border-radius: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-media {
-  padding: 12px 12px 20px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 168px;
+  box-sizing: border-box;
 }
 
 .card-media img {
@@ -46,7 +54,7 @@
 }
 
 .card-content {
-  padding: 0 12px 17px;
+  padding: 20px 12px 17px;
   display: flex;
   flex-direction: column;
   gap: 8px;
