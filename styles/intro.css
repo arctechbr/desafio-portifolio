@@ -1,7 +1,7 @@
 .bg-intro {
   width: 100%;
   height: 750px;
-  background-image: url(../assets/images/Background_Intro.png);
+  background-image: url("../assets/images/Background_Intro.png");
   background-size: cover;
   background-position: center;
 }
